@@ -1,0 +1,84 @@
+TIME:
+# Max game length in minutes
+  MAX_GAME-MIN: 18
+  
+# Final battle takes place after ... minutes
+  INCREASE_DIFFICULTY-MIN: 11
+  
+# Countdown to the start of the game
+  COUNTDOWN-SEC: 140
+  
+# Duration of invincibility.
+  FINAL_COUNTDOWN-SEC: 50
+  
+# Define the messages. (You can use color codes in the MOTD, like '&e')
+MESSAGE:
+  WORLD_BORDER: Borde Del Mapa!
+  SERVER_FULL: Prueba En hg3.minelc.com
+  GAME_PROGRESS: Prueba En hg3.minelc.com
+  MOTD_PROGRESS: '&cPrueba En hg3.minelc.com                              &aMineLC.com'
+  MOTD_COUNTDOWN: '&aComienza En <time>.'
+  NO_KIT_PERMISSION: Kit Para Usuarios VIP.
+  HELP_MESSAGE: Para Ayuda Usa /help
+  SERVER_TITLE: MineLC
+  KIT_BUY_WEBSITE: http://minelc.com/
+
+# Toggle the advanced chat-system. (HUD chat-system)
+ADVANCED_CHAT: false
+
+# Show tips throughout the game?
+SHOW_TIPS: true
+  
+# Add a line for each tip you want to display.
+TIPS:
+  - 'Servidor De Juegos PVP Y Mas: play.minelc.com'
+  - 'Si Tienes DudasVisita La Web O El Foro Oficial http://minelc.com/'
+  - 'Para Comprar VIP Y Tener Todos Los Kits Y 1 Slot Reservado: /buy'
+  - 'Usa La Brujula Para Ver Si Hay Jugadores Cerca'
+  - 'Foro Oficial http://foro.minelc.com/'
+  
+# Advcanced Abilities (DisguiseCraft needed!)
+ADVANCED_ABILITIES: false
+
+# Should the kitname displayed as prefix in the chat?
+KIT_PREFIX: true
+
+# Spawn cornucopia on start (see cornucopia.yml)
+CORNUCOPIA: false
+
+# Spawn feast (see feast.yml)
+FEAST: false
+
+# Radius of the world...
+WORLD_BORDER_RADIUS: 300
+
+# Minimum of players to start with.
+MINIMUM_PLAYERS_START: 2
+
+# Users which did not choose a kit, get the default kit (can be configured in the kit.yml)
+DEFAULT_KIT: true
+
+# If the plugin should use the item menu or the normal chat menu to display available kits
+ITEM_MENU: true
+
+# Enable or disable compass feature.
+COMPASS: true
+
+# Team Function! If enabled players can add other players to their team!
+TEAM: true
+
+# Death signs mark Player death places! (Lines can be configured in deathsign.yml).
+DEATH_SIGNS: true
+
+# Regenerate world? (true: every round there will be a new world/ false: see world.yml for configs).
+REGEN_WORLD: false
+
+# If false, all players start the game at the spawn.
+# If true, each player starts at a random spot. (May causes lag on some servers!)
+RANDOM_START: false
+
+# Last Winner gets alle Kits in the next round only on local server! (no Mysql is needed!)
+SIMPLE_REWARD: true
+
+# If enabled, players can join server during the game and act like spectators (permissions node "bg.spectator" required)
+SPECTATOR_SYSTEM: true
