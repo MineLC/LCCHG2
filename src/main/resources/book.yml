@@ -1,0 +1,52 @@
+# Here you can config the book text, which the player gets when he joins the server
+#
+# Use the placeholder <server_title> where the Server name should be inserted.
+# Use the placeholder <space> where you want to leave a line blank.
+# Use the placeholder <newpage> where you want to end the page and go on with the next one.
+# Every line you create at content represents a line in the book.
+#
+# Max. 16 chars per line! (ColorCodes don't matter!)
+# &k is used in the End Poem, when the supernatural beings say words not meant for your eyes. Using it ingame will make all characters except spaces flash randomly as many different characters. It is currently the only animated format code.
+# &l creates bold text. This may not work properly on foreign or special characters.
+# &m creates striked text.
+# &n creates underlined text.
+# &o creates italic text. This one doesn't feel too Minecraft-like, as the text's pixels no longer have straight edges.
+# &[0-f, hexadecimal] creates colored text. See Color codes.
+# &r resets any of the previous styles so text after it appears normally.
+#
+# !!! If you use color codes you have to surround your message with '' !!!
+
+title: Reglas E Informacion!
+content:
+  - '&2 Bienvenido A MineLC'
+  - '&2  Juegos Del Hambre'
+  - <space>
+  - '&6 Lista De Servidores'
+  - <space>
+  - '&6    hg1.minelc.com'
+  - '&6    hg2.minelc.com'
+  - '&6    hg3.minelc.com'
+  - '&6    hg4.minelc.com'
+  - '&6    hg5.minelc.com'
+  - <newpage>
+  - '&9     Elige Un Kit:'
+  - <space>
+  - '&9/kit'
+  - '&9/kit [kitName]'
+  - '&9/kitinfo [kitName]'
+  - <space>
+  - <space>
+  - '&2   Para Kits VIP Visita:'
+  - '&2      Minelc.com'
+  - <newpage>
+  - '&4    Esta Prohibido:'
+  - '&4      Usar Hacks'
+  - '&4      Hacer Spam'
+  - <space>
+  - '&2      Permitido'
+  - '&2 Optifine Y reis minimap'
+  - <space>
+  - '&8  Foro Y Web Oficial:'
+  - '&8   Foro.minelc.com'
+  - '&8       Minelc.com'
+author: MineLC
