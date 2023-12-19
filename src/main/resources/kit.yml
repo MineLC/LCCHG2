@@ -1,0 +1,637 @@
+# If default kit is enabled in the config you can configure the default kit here
+default:
+  ITEMS:
+    - '272,1'
+    - '297,2'
+    - '303,1'
+    - '282,1'
+  ABILITY:
+    - 34
+  POTION:
+    - 0
+  PERMS: "default"
+
+# Add a section for each kit. EXAMPLE:
+# kitname: [THE NAME - SAME AS ABOVE - HAS TO BE IN SMALL LETTERS]
+#  ITEMS:  [LIST OF ALL ITEMS]
+#    - 'ITEM_ID:DURABILITY,AMOUNT,ENCHANTMENT_ID,ENCHANTMENT_LEVEL'
+#  ABILITY: 
+#    - 0 [THE ID OF THE ABILITY - 0 IS NO ABILITY]
+#  POTION: 
+#    - POTION_ID,DURATION(IN SECONDS),AMPLIFIER [POTION_ID: 0 IS NO POTION, DURATION: 0 IS ENDLESS]
+#  COINS: 0 [THE PRICE FOR THE KIT (if Reward is enabled in the config file), 0 this kit can not be bought]
+# ITEMMENU: ITEM_ID [THE ID OF THE ITEM THAT WILL BE USED IN THE ITEMMENU FOR THAT KIT]
+
+
+barbaro:
+  ITEMS:
+    - '272,1,16,1'
+    - '275,1,32,1'
+    - '300,1'
+    - '301,1'
+  ABILITY:
+    - 2
+    - 33
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 275
+  PERMS: "default"
+minero:
+  ITEMS:
+    - '257,1,32,2'
+    - '306,1'
+    - '50,20'
+    - '61,1'
+    - '263,5'
+    - '363,2'
+  ABILITY:
+    - 33
+  POTION:
+    - '16,0,0'
+    - '3,0,0'
+  COINS: 0
+  ITEMMENU: 274
+  PERMS: "default"
+enderman:
+  ITEMS:
+    - '368,10'
+    - '283,1'
+    - '298,1'
+    - '299,1'
+    - '319,2'
+  ABILITY:
+    - 20
+    - 33
+  POTION:
+    - 0
+  COINS: 5
+  ITEMMENU: 381
+  PERMS: "default"
+piromano:
+  ITEMS:
+    - '272,1,20,1'
+    - '303,1'
+    - '51,1'
+  ABILITY:
+    - 6
+    - 33
+  POTION:
+    - 0
+  COINS: 7
+  ITEMMENU: 385
+  PERMS: "default"
+explorador:
+  ITEMS:
+    - '272,1'
+    - '313,1'
+    - '360,3'
+  ABILITY:
+    - 8
+    - 33
+  POTION:
+    - '8,0,1'
+  COINS: 0
+  ITEMMENU: 272
+  PERMS: "default"
+brujo:
+  ITEMS:
+    - '373:16420,3'
+    - '373:16428,4'
+    - '373:16426,2'
+    - '373:16418,2'
+    - '272,1'
+    - '391,3'
+  ABILITY:
+    - 5
+    - 33
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 373
+  PERMS: "default"
+arquero:
+  ITEMS:
+    - '261,1,49,1'
+    - '262,32'
+    - '268,1'
+    - '303,1'
+  ABILITY:
+    - 33
+  POTION:
+    - '8,0,1'
+  COINS: 0
+  ITEMMENU: 262
+  PERMS: "default"
+creeper:
+  ITEMS:
+    - '46,10'
+    - '69,10'
+    - '76,5'
+    - '315,1,3,4'
+    - '316,1,3,4'
+    - '268,1'
+    - '363,2'
+  ABILITY:
+    - 23
+    - 33
+  POTION:
+    - '12,0,1'
+  COINS: 3
+  ITEMMENU: 331
+  PERMS: "default"
+sonic:
+  ITEMS:
+    - '272,1'
+    - '299,1'
+    - '298,1'
+  ABILITY:
+    - 33
+  POTION:
+    - '1,0,1'
+  COINS: 0
+  ITEMMENU: 288
+  PERMS: "default"
+hulk:
+  ITEMS:
+    - '261,1'
+    - '262,12'
+    - '304,1,3,4'
+    - '363,2'
+  ABILITY:
+    - 18
+    - 33
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 272
+  PERMS: "default"
+encantador:
+  ITEMS:
+    - '272,1'
+    - '384,18'
+    - '299,1'
+    - '47,5'
+    - '116,1'
+    - '364,1'
+  ABILITY:
+    - 33
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 116
+  PERMS: "default"
+camaleon:
+  ITEMS:
+    - '272,1'
+    - '260,5'
+  ABILITY:
+    - 16
+    - 17
+    - 33
+  POTION:
+    - 0
+  COINS: 8
+  ITEMMENU: 260
+  PERMS: "default"
+asesino:
+  ITEMS:
+    - '267,1,16,1'
+    - '363,1'
+  ABILITY:
+    - 5
+    - 33
+  POTION:
+    - '2,0,0'
+  COINS: 0
+  ITEMMENU: 267
+  PERMS: "default"
+ladron:
+  ITEMS:
+    - '308,1'
+    - '280,1'
+    - '364,1'
+    - '17,1'
+  ABILITY:
+    - 13
+    - 33
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 280
+  PERMS: "default"
+domabestias:
+  ITEMS:
+    - '383:50,3'
+    - '383:61,1'
+    - '383:54,3'
+    - '383:55,3'
+    - '268,1,17,2'
+    - '363,1'
+  ABILITY:
+    - 20
+    - 17
+    - 33
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 383
+  PERMS: "default"
+guerrero:
+  ITEMS:
+    - '268,1,19,1'
+    - '304,1,3,2'
+    - '303,1,3,2'
+  ABILITY:
+    - 14
+    - 33
+  POTION:
+    - '18,0,0'
+    - '5,0,0'
+  COINS: 0
+  ITEMMENU: 304
+  PERMS: "default"
+curandero:
+  ITEMS:
+    - '272,1'
+    - '322,1'
+    - '39,10'
+    - '40,10'
+    - '281,10'
+    - '316,1'
+  ABILITY:
+    - 34
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 281
+  PERMS: "default"
+orco:
+  ITEMS:
+    - '286,1,16,2'
+    - '303,1,7,1'
+    - '316,1'
+  ABILITY:
+    - 34
+    - 35
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 286
+  PERMS: "default"
+ultracreeper:
+  ITEMS:
+    - '46,25'
+    - '259,1'
+    - '307,1,3,4'
+    - '306,1,3,4'
+    - '272,1'
+    - '364,2'
+  ABILITY:
+    - 23
+    - 33
+  POTION:
+    - '12,0,1'
+  COINS: 0
+  ITEMMENU: 46
+  PERMS: "VIP"
+ironman:
+  ITEMS:
+    - '306,1,3,2'
+    - '307,1,3,2'
+    - '308,1,4,2'
+    - '309,1,4,2'
+    - '272,1'
+    - '364,2'
+    - '322,1'
+  ABILITY:
+    - 33
+  POTION:
+    - '12,0,1'
+  COINS: 3
+  ITEMMENU: 15
+  PERMS: "VIP"
+headshooter:
+  ITEMS:
+    - '261,1,48,2'
+    - '261,1,50,2'
+    - '262,40'
+    - '268,1'
+    - '298,1,3,2,'
+    - '304,1,3,2'
+    - '301,1,3,2'
+    - '366,2'
+  ABILITY:
+    - 9
+    - 33
+  POTION:
+    - '8,0,0'
+  COINS: 0
+  ITEMMENU: 261
+  PERMS: "VIP"
+tanque:
+  ITEMS:
+    - '272,1,20,1'
+    - '303,1'
+    - '304,1'
+    - '305,1,2,4'
+    - '51,10'
+    - '366,2'
+  ABILITY:
+    - 6
+    - 33
+  POTION:
+    - '10,0,0'
+  COINS: 0
+  ITEMMENU: 322
+  PERMS: "VIP"
+caballero:
+  ITEMS:
+    - '272,1,17,1'
+    - '303,1,3,4'
+    - '304,1,4,4'
+    - '305,1,2,4'
+    - '357,5'
+    - '366,2'
+  ABILITY:
+    - 5
+    - 33
+  POTION:
+    - '10,0,0'
+  COINS: 0
+  ITEMMENU: 357
+  PERMS: "VIP"
+prominero:
+  ITEMS:
+    - '272,1'
+    - '278,1,16,3'
+    - '310,1'
+    - '50,64'
+    - '61,1'
+    - '263,20'
+    - '17,16'
+    - '366,3'
+  ABILITY:
+    - 33
+  POTION:
+    - '16,0,0'
+    - '3,0,1'
+  COINS: 0
+  ITEMMENU: 278
+  PERMS: "VIP"
+proarquero:
+  ITEMS:
+    - '261,1'
+    - '262,20'
+    - '268,1,19,2'
+    - '298,1,3,4'
+    - '300,1,3,4'
+    - '301,1,3,4'
+    - '366,2'
+  ABILITY:
+    - 1
+    - 33
+  POTION:
+    - '8,0,0'
+  COINS: 0
+  ITEMMENU: 262
+  PERMS: "SVIP"
+canibal:
+  ITEMS:
+    - '268,1'
+    - '282,1'
+  ABILITY:
+    - 12
+    - 33
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 282
+  PERMS: "SVIP"
+matasanos:
+  ITEMS:
+    - '272,1'
+    - '303,1,1,2'
+    - '304,1,1,2'
+    - '282,1'
+    - '366,2'
+  ABILITY:
+    - 19
+    - 14
+    - 33
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 303
+  PERMS: "SVIP"
+elite:
+  ITEMS:
+    - '276,1,16'
+    - '261,1'
+    - '262,32'
+    - '366,3'
+  ABILITY:
+    - 9
+    - 33
+  POTION:
+    - '11,0,0'
+    - '5,0,0'
+  COINS: 0
+  ITEMMENU: 397
+  PERMS: "ELITE"
+escudero:
+  ITEMS:
+    - '302,1,7,3'
+    - '303,1,7,3'
+    - '304,1,7,3'
+    - '305,1,7,3'
+    - '283,1'
+    - '364,2'
+    - '322,1'
+  ABILITY:
+    - 33
+  POTION:
+    - '11,0,1'
+  COINS: 0
+  ITEMMENU: 307
+  PERMS: "SVIP"
+domabestiaspro:
+  ITEMS:
+    - '383:50,6'
+    - '383:61,6'
+    - '383:54,6'
+    - '383:55,6'
+    - '272,1,16,3'
+    - '307,1,3,4'
+    - '364,1'
+  ABILITY:
+    - 20
+    - 17
+    - 33
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 383
+  PERMS: "SVIP"
+saltamontes:
+  ITEMS:
+    - '267,1,19,2'
+    - '364,3'
+    - '401,1'
+  ABILITY:
+    - 8
+    - 33
+    - 32
+  POTION:
+    - '8,0,1'
+    - '10,0,0'
+  COINS: 0
+  ITEMMENU: 313
+  PERMS: "SVIP"
+thor:
+  ITEMS:
+    - '279,1'
+    - '303,1,3,4'
+    - '304,1,3,4'
+    - '297,3'
+    - '322,2'
+  ABILITY:
+    - 11
+    - 33
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 279
+  PERMS: "VIP"
+flash:
+  ITEMS:
+    - '30,10'
+    - '320,3'
+    - '305,1,4,4'
+    - '304,1,0,2'
+    - '322,1'
+    - '272,1,19,2'
+    - '76,1'
+  ABILITY:
+    - 33
+    - 31
+  POTION:
+    - '1,0,2'
+  COINS: 0
+  ITEMMENU: 76
+  PERMS: "ELITE"
+pyro:
+  ITEMS:
+    - '385,32'
+    - '267,1,20,1'
+    - '306,1,3,4'
+    - '307,2,3,4'
+    - '259,1'
+    - '320,2'
+  ABILITY:
+    - 4
+    - 30
+    - 33
+  POTION:
+    - 0
+  COINS: 0
+  ITEMMENU: 385
+  PERMS: "SVIP"
+proladron:
+  ITEMS:
+    - '272,1'
+    - '308,1'
+    - '306,1'
+    - '280,10'
+    - '364,5'
+    - '5,32'
+  ABILITY:
+    - 15
+    - 33
+  POTION:
+    - '1,0,1'
+    - '11,0,0'
+    - '14,120,0'
+  COINS: 0
+  ITEMMENU: 131
+  PERMS: "VIP"
+troll:
+  ITEMS:
+    - '268,1,16,2'
+    - '320,3'
+    - '327,1'
+    - '30,10'
+    - '383:50,1'
+    - '315,1,7,3'
+    - '298,1,0,2'
+    - '322,1,19,2'
+  ABILITY:
+    - 33
+    - 36
+  POTION:
+    - '5,0,1'
+    - '3,0,0'
+  COINS: 0
+  ITEMMENU: 30
+  PERMS: "ELITE"
+coloso:
+  ITEMS:
+    - '306,1'
+    - '307,1'
+    - '308,1'
+    - '309,1'
+  ABILITY:
+    - 34
+  POTION:
+    - '11,0,0'
+    - '12,0,0'
+    - '5,0,0'
+  COINS: 0
+  ITEMMENU: 42
+  PERMS: "ELITE"
+spiderman:
+  ITEMS:
+    - '298,1'
+    - '299,1'
+    - '300,1'
+    - '301,1'
+    - '332,16'
+    - '267,1,19,2'
+  ABILITY:
+    - 37
+    - 33
+  POTION:
+    - '1,0,1'
+    - '8,0,1'
+  COINS: 0
+  ITEMMENU: 287
+  PERMS: "ELITE"
+kratos:
+  ITEMS:
+    - '307,1,0,1'
+    - '275,1,16,2'
+  ABILITY:
+    - 33
+  POTION:
+    - '10,0,0'
+    - '8,0,0'
+    - '5,0,0'
+  COINS: 0
+  ITEMMENU: 417
+  PERMS: "ELITE"
+timelord:
+  ITEMS:
+    - '309,1,0'
+    - '299,1,0'
+    - '304,1,0'
+    - '306,1,0'
+    - '275,1'
+    - '347,5'
+  ABILITY:
+    - 22
+    - 33
+  POTION:
+    - '1,0,0'
+  COINS: 0
+  ITEMMENU: 347
+  PERMS: "ELITE"

@@ -1,0 +1,51 @@
+# !!! Do NOT change anything here! Changes will be overridden! !!!
+
+NO_PERMISSION: No tienes permisos para esto!
+GAME_BEGUN: El juego ya ha comenzado!
+CMD_ONLY_PLAYER_ACCESS: Este comando es solo para jugadores.
+TELEPORTED_SPAWN: Teletransportado al spawn.
+PLAYER_NOT_ONLINE: El jugador no esta conectado.
+TEAM_FUNC_ADDED_PLAYER: Jugador agregado a su team.
+TEAM_FUNC_PLAYER_ALREADY_TEAM: Este jugador ya esta en tu team!
+TEAM_FUNC_CMDS: /team add <player>, /team remove <player>, /team list
+TEAM_FUNC_REMOVED_PLAYER: Jugador removido de su team.
+TEAM_FUNC_YOUR_TEAM: 'Tu team: '
+TELEPORT_FUNC_CMDS: /teleport <player>, /teleport <x> <z>
+TEAM_FUNC_DISABLED: Team desactivado.
+TELEPORT_FUNC_COORDS_NOT_VALID: Coordenadas no validas.
+TELEPORT_FUNC_TELEPORTED_COORDS: 'Teletransportado a x: <x> Z: <z>'
+TELEPORT_FUNC_TELEPORTED_PLAYER: Teletransportado a <player>.
+UPDATE_CHECK_DISABLED: Update checking is disabled.
+UPDATE_DOWNLOAD_DISABLED: Auto updating is disabled.
+UPDATE_DOWNLOAD_VERSION: Downloading new version (<version>).
+UPDATE_DOWNLOAD_COMPLETE: Plugin download complete.
+UPDATE_DOWNLOAD_ERROR: An error occured while trying to download the update.
+UPDATE_NO_UPDATE: No update available.
+REWARD_FUNC_DISABLED: Desactivado.
+REWARD_FUNC_CMDS: /coin buy <kit>, /coin send <player> <amount>, /coin give <player> <amount>
+REWARD_FUNC_NOT_ALLOWED: No tienes permitido comprar este kit.
+REWARD_FUNC_ALL_KITS: Ya tienes el acceso a todos los kits.
+REWARD_FUNC_ALREADY_BOUGHT: Ya tienes este kit.
+KIT_NOT_EXIST: El kit no existe.
+REWARD_FUNC_KIT_NO_BUY: No puedes comprar este kit.
+REWARD_FUNC_BOUGHT_KIT: Compraste el kit <kit>!
+REWARD_FUNC_NOT_ENOUGH_COINS: No tienes suficientes coins.
+REWARD_FUNC_INVALID_INT: Comando Invalido!
+REWARD_FUNC_SUCCESS_COIN_SENT: Coins enviados.
+REWARD_FUNC_SUCCESS_COIN_RECEIVED: Recibiste algunos coins!
+REWARD_FUNC_SUCCESS_TRANSACTION: Transaccion exitosa.
+REWARD_FUNC_STATS: Jugador <player> tiene <coins> coins.
+COMPASS_TRACK: 'Rastreando jugador <player>. Distancia: <distance>'
+COMPASS_NOT_TRACK: No se encuentran jugadores. Brujula ahora apunta al spawn.
+BLOCK_DESTROY_NOT_ALLOWS: No tienes permitido destruir este bloque.
+SPECTATORS_CHAT_NOT_ALLOWS: Espectadores no pueden usar el chat.
+MESSAGE_TOO_LONG: El mensaje es muy largo!
+SPECTATOR_IN_THE_WAY: Estas en el camino de la flecha
+MAY_ODDS_BE_IN_YOUR_FAVOR: Que la suerte este de tu lado.
+GAMES_HAVE_BEGUN: EL juego ha comenzado!
+INVINCIBLE_FOR: Todos son invencibles durante <time>.
+NOW_GAMEMAKER: Ahora eres Gamemaker.
+NOW_SPECTATOR: Ahora eres Espectador.
+HEADSHOT_DEATH: <victom> fue headshotted por <player>.
+PLAYERS_REMAIN: <amount> jugadores restantes.
+HEADSHOT: Headshot!

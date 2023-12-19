@@ -1,0 +1,110 @@
+# ConfigFile for the abilities of The BukkitGames.
+
+AB:
+  '1':
+    Desc: Flechas explotan contra el suelo.
+  '2':
+    Desc: Rompe arboles rapido
+  '3':
+    Desc: Los disparos causan efectos al enemigo.
+  '4':
+    Desc: Lanza carga de fuego con click derecho.
+  '5':
+    Desc: Al comer galleta ganas fuerza.
+    Duration: 10
+  '6':
+    Desc: Ganas fuerza con el fuego y este no te quema.
+  '7':
+    Desc: Cerdos dropean 4 chuletas.
+    Amount: 4
+  '8':
+    Desc: Al caer recibe 2 de daño y si hay alguien a 5m el resto.
+  '9':
+    Desc: Muerte instantanea al disparar de lejos.
+    Distance: 25
+  '10':
+    Desc: Cultivos inmediatos.
+  '11':
+    Desc: Truenos con hacha de diamante.
+    Cooldown: 6
+    Expired: Cooldown has not expired!
+  '12':
+    Desc: Roba vida del enemigo al pegarle.
+  '13':
+    Desc: Con un palo puedes robar objetos a otros.
+    Chance: 8
+    Cooldown: 15
+    Expired: Espera 15 segundos para volver a robar!
+    Success: Item robado.
+  '14':
+    Desc: Al matar otros jugadores recuperas tu hambre.
+  '15':
+    Desc: Con un palo puedes robar objetos a otros.
+    Chance: 10
+    Cooldown: 10
+    Expired: Espera 10 segundos para volver a robar!
+    Success: Item robado.
+  '16':
+    Desc: Al comer manzana te vuelves invisible.
+    Cooldown: 30
+    Expired: Cooldown has not expired!
+    Duration: 8
+    invisible: You are now invisible!
+    visible: You are no longer invisible!
+  '17':
+    Desc: Transformacion en mob al pegarle con la mano sola.
+    disguise: You are now disguised!
+    undisguise: You are no longer disguised!
+  '18':
+    Desc: Con tus manos pegas igual que con espada de piedra.
+  '19':
+    Desc: Posibilidad de envenenar a otros jugadores.
+    Chance: 12
+    Duration: 13
+    Damager: Envenenado!
+    Defender: Envenenado!
+  '20':
+    Desc: Mobs no atacan si no los atacas.
+  '21':
+    Desc: You can see in the night, when eating a potato!
+    Duration: 10
+  '22':
+    Desc: Congela jugadores con reloj a 25 bloques, durante 5s!
+    radius: 25
+    Duration: 5
+    Cooldown: 80
+    Expired: Se puede utilizar cada 80 segundos!
+    success: Todos los jugadores han sido congelados 8s en un radio de 20 blocks!
+    target: 'The time has been frozen by <player> for 10 seconds!'
+    move: Estas congelado!
+    unfrozen: Ya no estas congelado!
+  '23':
+    Desc: Explotas al morir!
+    Burn: true
+  '30':
+    Desc: Ganas fuerza 2 con el fuego y este no te quema.
+  '31':
+    Desc: Al hacer click a la antorcha seras teletransportado.
+    Cooldown: 30
+    Expired: Ahora se puede volver a usar!
+    Distance: 40
+  '32':
+    Desc: Grandes saltos al usar el fuego artificial.
+  '33':
+    Desc: Recuperas 2 corazones al comer sopas.
+  '34':
+    Desc: Recuperas 3 corazones al comer sopas.
+  '35':
+    Desc: Posibilidad de debilitar a otros jugadores.
+    Chance: 12
+    Duration: 15
+    Damager: Debilitado!
+    Defender: Debilitado!
+  '36':
+    Desc: Posibilidad de cegar a otros jugadores.
+    Chance: 12
+    Duration: 7
+    Damager: Cegado!
+    Defender: Cegado!
+  '37':
+    Desc: Generar una telaraña con las bolas de nieve.
